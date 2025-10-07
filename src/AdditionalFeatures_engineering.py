@@ -6,6 +6,8 @@ from Feature_selection import data, goal
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import PolynomialFeatures
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Further feature engineering
 data['Risk_Severity_Interaction'] = data['Risk Level Prediction'] * data['Severity Score']
@@ -41,9 +43,6 @@ accuracy_before = rf.score(x_new_test, y_new_test) # Accuracy of the Random Fore
 feature_importances = pd.DataFrame(rf.feature_importances_, index=x_new_train.columns, columns=['importance']).sort_values('importance', ascending=False) # Feature importance
 print(feature_importances) # Feature importance sorted in descending order
 print(f'\nAccuracy using Random Forest model after feature enginnering: {accuracy_before:.2f}\n')
-
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # Compute the correlation matrix
 correlation_matrix = data.corr()
