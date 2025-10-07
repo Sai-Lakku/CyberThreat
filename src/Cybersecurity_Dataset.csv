@@ -1,0 +1,1101 @@
+Threat Category,Threat Actor,Attack Vector,Geographical Location,Sentiment in Forums,Severity Score,Suggested Defense Mechanism,Risk Level Prediction,Cleaned Threat Description,Keyword Extraction,Named Entities (NER),Topic Modeling Labels
+DDoS,APT-28,Email,North Korea,0.99,5,Increase Web Security,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Malware,Lazarus Group,Network,USA,0.97,1,Quarantine,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Email,North Korea,0.87,3,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Lazarus Group,Web,Global,0.64,2,Quarantine,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS
+DDoS,Unknown,Email,Germany,0.57,1,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS
+Malware,APT-28,Web,North Korea,0.93,5,Patch Vulnerability,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Phishing,Lazarus Group,Email,Germany,0.58,1,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Web,North Korea,0.93,5,Increase Web Security,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Network,Global,0.75,4,Patch Vulnerability,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Web,USA,0.7,5,Monitor for Phishing,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,APT-28,Network,Global,0.95,5,Quarantine,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,Unknown,Network,USA,0.8,5,Increase Web Security,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Web,USA,0.79,3,Increase Web Security,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+DDoS,Unknown,Email,Germany,0.78,5,Increase Web Security,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Unknown,Email,Global,0.69,2,Increase Web Security,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Email,North Korea,0.89,2,Increase Web Security,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Email,Global,0.63,1,Monitor for Phishing,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Malware,Lazarus Group,Email,Germany,0.97,3,Quarantine,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware
+Malware,Anonymous,Network,USA,0.95,1,Increase Web Security,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+DDoS,Anonymous,Email,Germany,0.67,2,Quarantine,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Ransomware,APT-28,Network,Russia,0.86,2,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Phishing,Anonymous,Network,Russia,0.79,4,Increase Web Security,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Lazarus Group,Network,North Korea,0.67,5,Increase Web Security,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",DDoS
+Malware,APT-28,Web,Germany,0.99,2,Quarantine,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Malware,Lazarus Group,Web,North Korea,0.51,1,Increase Web Security,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Anonymous,Network,North Korea,0.63,1,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Lazarus Group,Web,Russia,0.76,5,Increase Web Security,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Email,North Korea,0.76,5,Monitor for Phishing,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS
+Malware,Unknown,Email,Russia,0.79,4,Monitor for Phishing,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+Malware,Lazarus Group,Network,USA,0.88,3,Increase Web Security,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Phishing,Lazarus Group,Email,Germany,0.81,1,Monitor for Phishing,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Phishing,APT-28,Network,North Korea,0.8,5,Patch Vulnerability,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Malware,APT-28,Network,Russia,0.53,1,Increase Web Security,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Email,Global,0.69,5,Patch Vulnerability,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Anonymous,Web,North Korea,0.62,2,Quarantine,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Phishing,Lazarus Group,Email,USA,0.63,1,Patch Vulnerability,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Malware,APT-28,Email,USA,0.78,2,Quarantine,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Network,Global,0.6,1,Increase Web Security,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware
+Phishing,Unknown,Network,Russia,0.65,3,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+DDoS,Anonymous,Network,North Korea,0.62,4,Quarantine,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Lazarus Group,Network,Russia,0.97,2,Patch Vulnerability,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Web,USA,0.97,5,Patch Vulnerability,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Lazarus Group,Web,Russia,0.8,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Web,USA,0.96,1,Increase Web Security,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Malware,Unknown,Network,Russia,0.89,2,Increase Web Security,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Malware,Anonymous,Network,Global,0.79,1,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Network,Germany,0.5,1,Increase Web Security,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Anonymous,Web,Global,0.89,1,Increase Web Security,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,APT-28,Network,Global,0.85,4,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Unknown,Email,Germany,0.81,4,Quarantine,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+DDoS,Anonymous,Email,Germany,0.88,5,Patch Vulnerability,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Ransomware,Anonymous,Network,North Korea,0.76,2,Increase Web Security,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,APT-28,Email,North Korea,0.85,3,Quarantine,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Email,Global,0.97,3,Monitor for Phishing,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,APT-28,Web,Global,0.69,3,Increase Web Security,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Network,USA,0.85,1,Monitor for Phishing,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Network,USA,0.74,4,Patch Vulnerability,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Phishing,APT-28,Web,North Korea,0.84,2,Increase Web Security,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Unknown,Email,North Korea,0.88,1,Patch Vulnerability,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+Phishing,APT-28,Email,USA,0.52,4,Patch Vulnerability,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Network,USA,0.82,4,Patch Vulnerability,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Email,Russia,0.61,2,Patch Vulnerability,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Lazarus Group,Web,Russia,0.84,2,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Phishing,Unknown,Web,USA,0.73,2,Increase Web Security,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+DDoS,Lazarus Group,Network,Russia,0.89,1,Monitor for Phishing,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Anonymous,Web,Germany,0.56,5,Increase Web Security,5,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Malware,Lazarus Group,Web,North Korea,0.81,2,Increase Web Security,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Network,North Korea,0.64,5,Increase Web Security,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Malware,APT-28,Web,USA,0.93,1,Quarantine,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Ransomware,Lazarus Group,Web,Global,0.96,5,Quarantine,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Unknown,Web,USA,1,3,Increase Web Security,5,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Ransomware,Unknown,Email,Russia,0.9,5,Monitor for Phishing,5,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Phishing,Anonymous,Network,Global,0.88,2,Increase Web Security,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Anonymous,Network,Russia,0.61,1,Patch Vulnerability,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Phishing,Lazarus Group,Network,Germany,0.67,2,Quarantine,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Ransomware,APT-28,Email,Russia,0.73,3,Quarantine,5,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Malware,Unknown,Email,Germany,0.89,2,Increase Web Security,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,Lazarus Group,Network,Germany,0.96,2,Increase Web Security,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+DDoS,Unknown,Email,Russia,0.59,2,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Malware,Unknown,Network,Russia,0.96,4,Monitor for Phishing,4,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+DDoS,APT-28,Email,Germany,0.85,3,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Web,Global,0.81,2,Increase Web Security,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Lazarus Group,Web,Germany,0.6,2,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Malware,APT-28,Network,North Korea,0.53,2,Increase Web Security,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,APT-28,Email,Germany,0.78,1,Quarantine,4,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Lazarus Group,Email,Global,0.83,4,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,APT-28,Web,North Korea,0.61,1,Monitor for Phishing,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Web,USA,0.78,4,Quarantine,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Email,USA,0.93,2,Quarantine,1,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Ransomware,Unknown,Email,Global,0.92,3,Quarantine,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Malware,Unknown,Email,Germany,0.96,5,Quarantine,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Malware,Unknown,Email,Russia,0.68,5,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Lazarus Group,Email,Global,0.66,2,Increase Web Security,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Unknown,Email,North Korea,0.87,1,Monitor for Phishing,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Unknown,Network,North Korea,0.72,3,Monitor for Phishing,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Ransomware
+Ransomware,Unknown,Email,USA,0.54,4,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Ransomware,Unknown,Web,North Korea,0.64,2,Quarantine,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Malware,Anonymous,Network,Global,0.71,3,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Unknown,Email,North Korea,0.65,3,Quarantine,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Web,Global,0.67,4,Monitor for Phishing,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Lazarus Group,Network,Russia,0.65,3,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Ransomware,APT-28,Web,USA,0.52,1,Increase Web Security,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Unknown,Email,North Korea,0.82,1,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Malware
+Malware,APT-28,Email,Global,0.8,1,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Email,Germany,0.83,3,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Lazarus Group,Email,USA,0.6,1,Patch Vulnerability,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Ransomware,APT-28,Network,Russia,0.65,4,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Anonymous,Network,Global,0.81,3,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Web,Russia,0.8,5,Quarantine,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Email,Russia,0.75,3,Increase Web Security,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,APT-28,Web,North Korea,0.68,4,Monitor for Phishing,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+DDoS,Unknown,Network,North Korea,0.96,5,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Malware,Unknown,Email,Global,0.67,3,Monitor for Phishing,2,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Ransomware,Anonymous,Email,Germany,0.73,1,Increase Web Security,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+DDoS,Anonymous,Network,Global,0.84,2,Increase Web Security,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Malware,Unknown,Network,Germany,0.77,2,Patch Vulnerability,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Anonymous,Network,Russia,0.67,1,Patch Vulnerability,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,Unknown,Network,USA,0.72,2,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,Lazarus Group,Network,Global,0.9,2,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Phishing,APT-28,Email,Global,0.64,1,Increase Web Security,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Network,Germany,0.57,1,Quarantine,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Anonymous,Email,Russia,0.66,3,Quarantine,5,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Ransomware,Unknown,Email,Russia,0.92,3,Quarantine,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+DDoS,Unknown,Network,Germany,0.54,1,Monitor for Phishing,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Phishing,Anonymous,Network,Russia,1,4,Patch Vulnerability,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Malware,Unknown,Email,North Korea,0.77,2,Patch Vulnerability,4,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Lazarus Group,Network,USA,0.99,3,Increase Web Security,5,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Network,Global,0.97,2,Increase Web Security,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Anonymous,Network,USA,0.73,5,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Malware,Anonymous,Web,Global,0.6,1,Monitor for Phishing,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Malware,Unknown,Email,North Korea,0.58,4,Quarantine,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Anonymous,Web,Russia,0.62,5,Increase Web Security,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Malware
+Phishing,Lazarus Group,Network,Germany,0.86,5,Patch Vulnerability,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+Phishing,Unknown,Web,North Korea,0.64,5,Quarantine,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+DDoS,Unknown,Network,USA,0.67,1,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Phishing,Unknown,Web,Germany,0.72,3,Quarantine,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Network,Russia,0.96,1,Patch Vulnerability,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Ransomware
+Phishing,Lazarus Group,Web,North Korea,0.59,3,Monitor for Phishing,4,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Web,Germany,0.5,5,Quarantine,4,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Web,North Korea,0.53,5,Patch Vulnerability,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+Malware,Lazarus Group,Email,North Korea,0.95,4,Patch Vulnerability,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Phishing,APT-28,Web,Russia,0.82,3,Increase Web Security,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Email,Global,0.64,5,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Malware,Anonymous,Network,Germany,0.59,2,Patch Vulnerability,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Malware,Anonymous,Web,Russia,0.65,4,Increase Web Security,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+DDoS,Lazarus Group,Network,North Korea,0.56,1,Patch Vulnerability,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,APT-28,Network,Russia,0.97,4,Quarantine,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+DDoS,APT-28,Web,Global,0.89,2,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Email,Germany,0.73,3,Quarantine,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Malware,APT-28,Web,Global,0.93,1,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Network,USA,0.62,1,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+DDoS,Unknown,Network,Germany,0.86,3,Patch Vulnerability,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Phishing,Anonymous,Web,Global,0.93,4,Quarantine,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+DDoS,Unknown,Email,North Korea,0.68,5,Increase Web Security,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,APT-28,Email,Germany,0.88,4,Increase Web Security,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+Ransomware,Lazarus Group,Network,Germany,0.65,2,Increase Web Security,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Lazarus Group,Network,Russia,0.65,5,Patch Vulnerability,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,APT-28,Email,North Korea,0.55,4,Patch Vulnerability,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Phishing,APT-28,Web,USA,0.72,3,Quarantine,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Malware,Lazarus Group,Network,Global,0.86,2,Monitor for Phishing,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Unknown,Email,Russia,0.97,2,Patch Vulnerability,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Phishing,Unknown,Network,Global,0.8,2,Quarantine,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Malware,APT-28,Web,USA,0.93,5,Quarantine,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Malware,Unknown,Email,USA,0.91,1,Monitor for Phishing,4,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Lazarus Group,Network,Germany,0.59,5,Increase Web Security,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,Unknown,Web,USA,0.74,4,Quarantine,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Malware,APT-28,Network,Global,0.56,1,Quarantine,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Lazarus Group,Web,North Korea,0.84,4,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+DDoS,Unknown,Web,North Korea,0.97,1,Increase Web Security,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Anonymous,Email,Germany,0.57,5,Increase Web Security,4,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Malware,Lazarus Group,Web,Global,0.87,2,Monitor for Phishing,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Phishing,Lazarus Group,Network,Global,0.82,3,Patch Vulnerability,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Web,USA,0.79,2,Increase Web Security,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Malware,Anonymous,Web,Global,0.7,5,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Malware
+Malware,Lazarus Group,Email,Russia,0.68,1,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,Anonymous,Web,USA,0.52,2,Increase Web Security,5,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,APT-28,Web,Russia,0.61,5,Quarantine,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Network,Germany,0.51,4,Monitor for Phishing,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Email,North Korea,0.79,3,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+DDoS,Lazarus Group,Email,Germany,0.55,2,Quarantine,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Phishing,Anonymous,Email,North Korea,0.94,1,Increase Web Security,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+DDoS,Anonymous,Web,Germany,0.76,4,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Unknown,Email,Global,0.85,5,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+DDoS,Unknown,Web,Russia,0.71,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+Phishing,Anonymous,Web,North Korea,0.78,1,Quarantine,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Anonymous,Network,USA,0.97,5,Quarantine,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Anonymous,Network,Russia,0.54,5,Quarantine,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+DDoS,Lazarus Group,Network,USA,0.63,2,Patch Vulnerability,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+DDoS,Anonymous,Network,Russia,0.89,2,Patch Vulnerability,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Unknown,Network,Russia,0.55,1,Monitor for Phishing,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+DDoS,Lazarus Group,Web,Germany,0.54,5,Monitor for Phishing,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Anonymous,Web,North Korea,0.68,2,Quarantine,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Phishing,Unknown,Email,North Korea,0.55,3,Quarantine,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Lazarus Group,Web,Russia,0.79,3,Increase Web Security,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Anonymous,Web,Global,0.61,5,Quarantine,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Anonymous,Network,Global,0.95,2,Monitor for Phishing,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Anonymous,Web,USA,0.89,1,Monitor for Phishing,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Malware,Lazarus Group,Network,USA,0.85,1,Monitor for Phishing,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Email,Germany,0.81,1,Patch Vulnerability,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+DDoS,Unknown,Email,Russia,0.93,3,Patch Vulnerability,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+DDoS,APT-28,Web,USA,0.61,2,Quarantine,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+Malware,Anonymous,Email,USA,0.94,2,Increase Web Security,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Web,Russia,0.89,3,Increase Web Security,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Phishing,APT-28,Email,Germany,0.87,1,Increase Web Security,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Network,USA,0.78,1,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Phishing,Lazarus Group,Network,Germany,0.62,5,Monitor for Phishing,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Malware,Lazarus Group,Network,North Korea,0.71,4,Monitor for Phishing,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Malware,Unknown,Network,Germany,0.9,2,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Ransomware,Lazarus Group,Web,Global,0.52,2,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Phishing,APT-28,Email,Global,0.89,2,Increase Web Security,2,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Anonymous,Web,Germany,0.62,4,Quarantine,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Unknown,Network,Global,0.57,5,Quarantine,2,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Web,North Korea,0.56,4,Increase Web Security,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Email,Russia,0.51,1,Patch Vulnerability,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Anonymous,Web,Global,0.76,1,Increase Web Security,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Phishing,Lazarus Group,Email,Global,0.61,2,Quarantine,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Malware,Lazarus Group,Web,Germany,0.99,3,Increase Web Security,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Ransomware
+Phishing,APT-28,Email,North Korea,0.79,2,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Lazarus Group,Email,Russia,0.57,3,Monitor for Phishing,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Network,Germany,0.84,4,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+DDoS,APT-28,Email,Germany,0.95,1,Patch Vulnerability,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+DDoS,APT-28,Network,North Korea,0.87,3,Quarantine,2,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Ransomware,Unknown,Network,Russia,0.54,4,Patch Vulnerability,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Malware,Unknown,Network,North Korea,0.95,1,Patch Vulnerability,3,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware
+Ransomware,Lazarus Group,Web,Russia,0.9,3,Quarantine,3,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Web,North Korea,0.58,2,Quarantine,5,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Unknown,Web,Germany,0.53,2,Monitor for Phishing,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Web,Germany,0.78,2,Increase Web Security,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Anonymous,Email,USA,0.58,4,Patch Vulnerability,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Phishing,Anonymous,Email,Global,0.92,2,Quarantine,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Ransomware,Anonymous,Web,North Korea,0.68,5,Monitor for Phishing,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Malware,Lazarus Group,Email,USA,0.96,1,Increase Web Security,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Malware,APT-28,Email,Global,0.78,4,Quarantine,2,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Network,North Korea,0.59,2,Increase Web Security,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Malware,Unknown,Network,Russia,0.57,1,Increase Web Security,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Malware,Anonymous,Network,Global,0.79,3,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Anonymous,Network,Germany,0.88,2,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Anonymous,Email,USA,0.89,1,Quarantine,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+DDoS,Lazarus Group,Web,Global,0.64,5,Increase Web Security,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Malware,Unknown,Email,Global,0.6,3,Quarantine,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Ransomware,APT-28,Email,Germany,0.51,5,Quarantine,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Unknown,Email,North Korea,0.84,1,Increase Web Security,5,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Network,Russia,0.54,5,Quarantine,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Phishing,Lazarus Group,Network,Germany,0.71,1,Increase Web Security,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",DDoS
+DDoS,Lazarus Group,Network,Russia,0.8,1,Increase Web Security,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Lazarus Group,Web,North Korea,0.97,5,Increase Web Security,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+Phishing,Lazarus Group,Email,Global,0.66,1,Increase Web Security,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,APT-28,Web,Russia,0.62,2,Monitor for Phishing,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Network,USA,0.83,1,Increase Web Security,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Web,USA,0.81,4,Patch Vulnerability,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Unknown,Email,Germany,0.67,1,Patch Vulnerability,3,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Lazarus Group,Email,North Korea,0.96,4,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Malware,Lazarus Group,Network,Germany,0.92,1,Increase Web Security,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Phishing,Unknown,Network,Germany,0.61,1,Patch Vulnerability,2,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Web,Germany,0.62,5,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+DDoS,Anonymous,Network,USA,0.76,2,Quarantine,3,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Anonymous,Network,USA,0.89,2,Increase Web Security,2,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Ransomware,Unknown,Email,Germany,0.52,3,Patch Vulnerability,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Malware,Anonymous,Network,USA,0.85,5,Monitor for Phishing,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Network,North Korea,0.82,5,Quarantine,4,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Email,Germany,0.62,2,Monitor for Phishing,5,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Unknown,Email,USA,0.84,5,Patch Vulnerability,1,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,APT-28,Web,Russia,0.97,2,Monitor for Phishing,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Phishing,Lazarus Group,Network,Germany,0.52,5,Quarantine,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+DDoS,Unknown,Email,Germany,0.66,1,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,APT-28,Web,North Korea,0.72,2,Quarantine,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Web,Global,0.95,2,Monitor for Phishing,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Network,Global,0.98,4,Increase Web Security,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Network,North Korea,0.72,5,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+DDoS,Lazarus Group,Web,North Korea,0.88,5,Increase Web Security,5,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Ransomware,APT-28,Email,North Korea,0.77,2,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Malware,Unknown,Web,Global,0.77,1,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Malware
+Malware,Unknown,Network,North Korea,0.64,1,Increase Web Security,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+Malware,APT-28,Email,USA,0.61,1,Quarantine,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Lazarus Group,Email,Germany,0.64,5,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+Malware,Lazarus Group,Web,Germany,0.78,4,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Phishing,Lazarus Group,Network,Russia,0.51,2,Quarantine,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Ransomware,Unknown,Web,Russia,0.95,3,Increase Web Security,5,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Web,Germany,0.58,4,Increase Web Security,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Anonymous,Web,USA,0.61,3,Increase Web Security,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Email,Global,0.76,4,Quarantine,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+Malware,Lazarus Group,Email,Global,0.86,1,Monitor for Phishing,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Ransomware,APT-28,Network,USA,0.55,5,Increase Web Security,4,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Lazarus Group,Network,Global,0.66,3,Increase Web Security,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Anonymous,Web,North Korea,0.98,4,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+DDoS,Lazarus Group,Web,Germany,0.63,5,Monitor for Phishing,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Phishing,Lazarus Group,Web,Germany,0.66,3,Quarantine,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Network,USA,0.92,2,Patch Vulnerability,5,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS
+Phishing,APT-28,Email,Global,0.53,4,Increase Web Security,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Malware,Unknown,Email,Russia,0.73,2,Patch Vulnerability,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Web,Russia,0.69,1,Patch Vulnerability,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+DDoS,Anonymous,Web,Global,0.66,2,Increase Web Security,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,Lazarus Group,Web,Russia,0.64,2,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Ransomware,APT-28,Web,USA,0.55,4,Monitor for Phishing,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Unknown,Network,USA,0.66,1,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Malware,Anonymous,Email,Global,0.52,2,Increase Web Security,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+Ransomware,APT-28,Web,Russia,0.89,5,Quarantine,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+DDoS,Unknown,Network,USA,0.7,3,Patch Vulnerability,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Anonymous,Web,USA,0.72,2,Quarantine,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Web,North Korea,0.95,1,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Phishing,Anonymous,Email,North Korea,0.83,2,Patch Vulnerability,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Phishing,Lazarus Group,Web,USA,0.5,3,Increase Web Security,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,APT-28,Email,Global,0.97,1,Increase Web Security,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Ransomware,Unknown,Email,Germany,0.62,4,Quarantine,2,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",DDoS
+Ransomware,Anonymous,Email,Germany,0.55,1,Quarantine,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Phishing,Unknown,Network,USA,0.88,4,Monitor for Phishing,5,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Malware,Unknown,Network,USA,0.75,1,Increase Web Security,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Ransomware,APT-28,Email,USA,0.72,3,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Malware,Lazarus Group,Web,Global,0.62,3,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Unknown,Email,North Korea,0.77,1,Monitor for Phishing,3,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Web,USA,0.64,2,Increase Web Security,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Email,USA,0.95,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Malware,Lazarus Group,Web,Russia,0.61,4,Monitor for Phishing,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS
+DDoS,Anonymous,Network,Global,0.94,4,Monitor for Phishing,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS
+DDoS,Lazarus Group,Web,USA,0.78,5,Patch Vulnerability,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+Malware,Anonymous,Email,Russia,0.91,4,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+DDoS,APT-28,Network,Germany,0.86,5,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Web,USA,0.85,1,Increase Web Security,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Malware
+DDoS,APT-28,Web,USA,0.66,1,Quarantine,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Unknown,Web,Russia,0.62,1,Monitor for Phishing,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Web,Global,0.61,2,Patch Vulnerability,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Web,USA,0.93,2,Quarantine,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Network,Germany,0.91,5,Monitor for Phishing,5,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Unknown,Network,USA,0.72,4,Increase Web Security,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Ransomware,APT-28,Network,Germany,0.57,4,Patch Vulnerability,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Ransomware,Lazarus Group,Network,North Korea,0.69,1,Quarantine,4,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Anonymous,Email,North Korea,0.81,3,Increase Web Security,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Anonymous,Network,Germany,0.73,2,Quarantine,4,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Web,Global,0.89,2,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Malware,APT-28,Web,USA,1,1,Increase Web Security,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Anonymous,Network,USA,0.6,2,Quarantine,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Phishing,APT-28,Web,North Korea,0.73,1,Increase Web Security,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Malware,APT-28,Network,Germany,0.72,5,Monitor for Phishing,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+DDoS,Unknown,Web,USA,0.65,4,Increase Web Security,4,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Anonymous,Email,USA,0.6,3,Quarantine,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Malware,Unknown,Email,Global,0.53,4,Monitor for Phishing,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Unknown,Network,Russia,0.94,4,Patch Vulnerability,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Network,North Korea,0.71,5,Quarantine,5,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Anonymous,Network,North Korea,0.75,2,Quarantine,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Malware,Lazarus Group,Web,Russia,0.96,3,Monitor for Phishing,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+DDoS,Lazarus Group,Network,USA,0.89,2,Monitor for Phishing,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Malware,APT-28,Email,Global,0.57,4,Patch Vulnerability,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Web,Global,0.78,1,Quarantine,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Ransomware,Lazarus Group,Network,North Korea,0.72,4,Monitor for Phishing,2,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+DDoS,APT-28,Web,Global,0.9,2,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,APT-28,Web,Russia,0.86,4,Patch Vulnerability,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+DDoS,APT-28,Network,USA,0.85,1,Monitor for Phishing,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Lazarus Group,Web,Russia,0.67,5,Quarantine,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Anonymous,Email,Germany,0.9,2,Increase Web Security,3,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+DDoS,Unknown,Email,North Korea,0.53,4,Increase Web Security,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Web,Global,0.58,2,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Phishing,Lazarus Group,Network,Germany,0.67,5,Increase Web Security,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Lazarus Group,Web,Global,0.54,4,Increase Web Security,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Email,USA,0.62,4,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Malware,Unknown,Web,USA,0.92,2,Patch Vulnerability,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Lazarus Group,Web,USA,0.97,2,Quarantine,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Anonymous,Email,Global,0.65,1,Patch Vulnerability,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Malware,Unknown,Web,Germany,0.63,5,Monitor for Phishing,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS
+Phishing,Lazarus Group,Web,USA,0.64,1,Increase Web Security,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Unknown,Network,Germany,0.64,4,Quarantine,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+Malware,Anonymous,Network,Global,0.52,2,Patch Vulnerability,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Email,Germany,0.96,4,Increase Web Security,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Phishing,Unknown,Email,Global,0.61,4,Patch Vulnerability,5,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Anonymous,Email,Global,0.71,3,Quarantine,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+DDoS,Lazarus Group,Network,North Korea,0.5,3,Patch Vulnerability,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+DDoS,Unknown,Email,Global,0.93,4,Patch Vulnerability,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Unknown,Email,Global,0.87,2,Patch Vulnerability,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Email,Russia,0.97,4,Increase Web Security,3,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+DDoS,APT-28,Network,USA,0.89,3,Quarantine,2,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+DDoS,Lazarus Group,Web,North Korea,0.66,2,Quarantine,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Malware,Unknown,Email,North Korea,0.62,4,Increase Web Security,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Lazarus Group,Web,North Korea,0.85,5,Increase Web Security,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Ransomware,Anonymous,Email,Russia,0.68,5,Increase Web Security,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Malware,Lazarus Group,Web,Global,0.78,4,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Phishing,Unknown,Network,USA,0.5,2,Patch Vulnerability,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Malware,Lazarus Group,Network,Germany,0.53,4,Patch Vulnerability,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS
+Malware,APT-28,Email,Global,0.77,4,Quarantine,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Lazarus Group,Web,Russia,0.78,3,Patch Vulnerability,5,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,APT-28,Network,Global,0.88,5,Monitor for Phishing,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Phishing,Anonymous,Email,Global,0.57,3,Increase Web Security,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Malware,APT-28,Email,Russia,0.76,3,Quarantine,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Lazarus Group,Network,North Korea,0.6,4,Quarantine,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Malware
+Malware,Unknown,Network,North Korea,0.55,3,Patch Vulnerability,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,APT-28,Email,USA,0.71,5,Quarantine,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Phishing,Anonymous,Web,USA,0.58,3,Increase Web Security,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Malware,APT-28,Web,North Korea,0.61,5,Quarantine,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+DDoS,APT-28,Web,Germany,0.66,3,Increase Web Security,4,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+DDoS,APT-28,Email,Global,0.63,5,Monitor for Phishing,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Phishing,Anonymous,Network,Germany,0.54,3,Monitor for Phishing,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,Lazarus Group,Email,Global,0.54,3,Increase Web Security,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,APT-28,Network,North Korea,0.6,2,Patch Vulnerability,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+DDoS,APT-28,Web,USA,0.53,5,Quarantine,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Web,USA,0.81,5,Patch Vulnerability,4,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+Malware,Anonymous,Network,Germany,0.64,5,Quarantine,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,APT-28,Network,USA,0.64,1,Monitor for Phishing,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Malware,Anonymous,Email,North Korea,0.67,3,Monitor for Phishing,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Web,Germany,0.83,5,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Ransomware,Lazarus Group,Email,Global,0.94,1,Quarantine,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Lazarus Group,Email,USA,0.88,2,Monitor for Phishing,3,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Email,Russia,0.86,5,Monitor for Phishing,2,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Malware,Lazarus Group,Web,USA,0.74,5,Monitor for Phishing,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Malware,APT-28,Email,Global,0.85,1,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Lazarus Group,Email,Germany,0.78,3,Patch Vulnerability,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Email,Global,0.61,2,Monitor for Phishing,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Malware,Unknown,Email,Russia,0.6,5,Monitor for Phishing,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Malware,Unknown,Email,North Korea,0.65,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Anonymous,Email,USA,0.96,2,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Anonymous,Web,Germany,0.77,4,Quarantine,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Email,North Korea,0.87,4,Increase Web Security,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Anonymous,Network,Global,0.67,2,Monitor for Phishing,5,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Lazarus Group,Email,Germany,0.7,1,Monitor for Phishing,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Email,North Korea,0.56,2,Monitor for Phishing,5,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Ransomware,APT-28,Web,Germany,0.59,2,Quarantine,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Web,Russia,0.91,1,Monitor for Phishing,3,malware detected in email attachment,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Network,Russia,0.79,1,Increase Web Security,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Phishing,Anonymous,Network,USA,0.67,3,Patch Vulnerability,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Lazarus Group,Web,USA,0.9,3,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Lazarus Group,Web,Russia,0.62,1,Patch Vulnerability,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Malware,Unknown,Email,Germany,0.99,4,Monitor for Phishing,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Web,Russia,0.67,4,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Ransomware,Lazarus Group,Network,USA,0.67,2,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Ransomware,Lazarus Group,Email,Russia,0.66,5,Increase Web Security,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Network,Russia,0.56,2,Increase Web Security,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+DDoS,Anonymous,Email,Germany,0.56,2,Quarantine,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Malware,Lazarus Group,Web,North Korea,0.82,5,Patch Vulnerability,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Network,USA,0.94,1,Monitor for Phishing,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Unknown,Email,Germany,0.9,4,Monitor for Phishing,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Anonymous,Email,Russia,0.57,2,Monitor for Phishing,5,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS
+Phishing,Lazarus Group,Web,Russia,0.77,5,Monitor for Phishing,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Malware,Anonymous,Web,North Korea,0.55,3,Increase Web Security,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,Lazarus Group,Web,USA,0.52,2,Patch Vulnerability,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Network,USA,0.83,4,Patch Vulnerability,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Phishing,Unknown,Email,Global,0.77,1,Quarantine,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Malware,Lazarus Group,Web,USA,0.54,2,Increase Web Security,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Malware,Lazarus Group,Network,North Korea,0.52,2,Monitor for Phishing,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Malware,Lazarus Group,Network,Global,0.99,5,Patch Vulnerability,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Lazarus Group,Network,Global,0.52,3,Patch Vulnerability,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Malware,Unknown,Web,Russia,0.72,3,Increase Web Security,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Unknown,Web,Russia,0.75,1,Quarantine,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+DDoS,APT-28,Email,USA,0.56,4,Quarantine,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Email,Global,0.58,1,Monitor for Phishing,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Lazarus Group,Web,Russia,0.68,2,Quarantine,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Network,North Korea,0.88,2,Patch Vulnerability,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Malware,APT-28,Network,Russia,0.75,3,Quarantine,5,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,APT-28,Network,Russia,0.82,4,Monitor for Phishing,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Lazarus Group,Email,Global,0.99,5,Patch Vulnerability,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+DDoS,Anonymous,Network,Global,0.88,4,Quarantine,4,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Ransomware,Lazarus Group,Email,Germany,0.72,2,Quarantine,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+DDoS,Unknown,Email,North Korea,0.72,5,Increase Web Security,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Unknown,Network,Global,0.81,4,Monitor for Phishing,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Lazarus Group,Network,USA,0.83,4,Quarantine,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Lazarus Group,Web,North Korea,0.75,5,Increase Web Security,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Ransomware,APT-28,Web,North Korea,0.82,2,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Ransomware,Lazarus Group,Network,Global,0.51,4,Increase Web Security,2,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Email,North Korea,0.71,5,Increase Web Security,3,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Unknown,Email,Global,0.64,2,Quarantine,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Email,Russia,0.56,5,Quarantine,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Lazarus Group,Email,Germany,0.55,5,Quarantine,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Unknown,Email,Russia,0.8,4,Increase Web Security,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+DDoS,Anonymous,Web,Global,0.76,2,Patch Vulnerability,4,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,APT-28,Network,Global,0.63,4,Monitor for Phishing,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+Phishing,Unknown,Web,Russia,0.74,1,Increase Web Security,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Email,USA,0.75,1,Quarantine,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Unknown,Email,USA,0.6,2,Monitor for Phishing,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Malware,Unknown,Email,USA,0.83,5,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+DDoS,APT-28,Email,Global,0.89,4,Monitor for Phishing,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Malware,Anonymous,Network,North Korea,0.9,4,Quarantine,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Phishing,Unknown,Email,Global,0.8,2,Increase Web Security,4,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+Phishing,Unknown,Network,North Korea,0.76,2,Increase Web Security,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Email,Russia,0.53,1,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Phishing,Anonymous,Network,Germany,0.64,3,Increase Web Security,4,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Anonymous,Web,North Korea,0.55,2,Quarantine,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+DDoS,Lazarus Group,Email,USA,0.98,3,Increase Web Security,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS
+Malware,APT-28,Network,Global,0.57,2,Increase Web Security,2,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+DDoS,Anonymous,Web,Russia,0.58,5,Increase Web Security,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Email,USA,0.94,5,Patch Vulnerability,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Phishing,Lazarus Group,Email,Russia,0.97,1,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Malware,APT-28,Email,Germany,0.88,1,Quarantine,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Phishing,Anonymous,Network,Global,0.5,3,Patch Vulnerability,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Network,Global,0.5,2,Quarantine,5,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Malware,Anonymous,Web,Germany,0.69,4,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Ransomware,APT-28,Network,Global,0.57,1,Monitor for Phishing,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Anonymous,Network,North Korea,0.51,4,Patch Vulnerability,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Ransomware,Anonymous,Email,Russia,0.73,4,Monitor for Phishing,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,APT-28,Email,USA,0.97,2,Monitor for Phishing,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Lazarus Group,Email,Germany,0.66,3,Increase Web Security,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+DDoS,Unknown,Email,North Korea,0.83,2,Increase Web Security,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Lazarus Group,Email,USA,0.83,1,Quarantine,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Phishing,APT-28,Email,USA,0.63,4,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Phishing,Lazarus Group,Email,Germany,0.83,2,Quarantine,1,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Malware,Anonymous,Web,North Korea,0.61,2,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Unknown,Web,USA,0.56,2,Monitor for Phishing,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware
+Phishing,APT-28,Web,USA,0.85,1,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,APT-28,Web,North Korea,0.56,3,Monitor for Phishing,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Ransomware
+Phishing,APT-28,Email,Global,1,2,Increase Web Security,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+DDoS,Unknown,Web,USA,0.59,1,Monitor for Phishing,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Anonymous,Email,Russia,0.8,4,Patch Vulnerability,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Malware,APT-28,Web,North Korea,0.71,5,Quarantine,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Lazarus Group,Network,USA,0.56,1,Quarantine,2,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Web,Germany,0.51,5,Increase Web Security,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+DDoS,APT-28,Web,Russia,0.81,2,Increase Web Security,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Email,USA,0.9,2,Increase Web Security,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Web,Russia,0.92,1,Quarantine,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Malware,Anonymous,Network,Russia,0.74,5,Increase Web Security,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+DDoS,Lazarus Group,Email,Global,0.89,2,Monitor for Phishing,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Anonymous,Email,Russia,0.84,4,Quarantine,2,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+Malware,Lazarus Group,Web,Global,0.86,3,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+DDoS,APT-28,Email,North Korea,0.75,3,Quarantine,5,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",DDoS
+Malware,Unknown,Email,Global,0.82,2,Monitor for Phishing,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Anonymous,Email,Germany,0.9,5,Monitor for Phishing,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Unknown,Email,USA,0.7,2,Increase Web Security,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Anonymous,Email,North Korea,0.9,5,Quarantine,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,APT-28,Email,North Korea,0.8,4,Quarantine,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Ransomware,Anonymous,Network,Germany,0.58,5,Quarantine,3,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Ransomware,APT-28,Web,Global,0.51,2,Patch Vulnerability,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware
+DDoS,Anonymous,Network,USA,0.68,4,Increase Web Security,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Malware,APT-28,Email,Global,0.77,1,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Ransomware,APT-28,Email,Russia,0.92,3,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Ransomware
+Malware,Lazarus Group,Web,Global,0.56,2,Increase Web Security,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+Ransomware,APT-28,Network,North Korea,0.9,2,Monitor for Phishing,5,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Malware,Lazarus Group,Web,USA,0.93,2,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,APT-28,Network,Global,0.58,4,Increase Web Security,4,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+Ransomware,Unknown,Email,USA,0.93,1,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Web,USA,1,5,Quarantine,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Ransomware,Unknown,Web,Russia,0.86,1,Patch Vulnerability,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Email,Russia,0.89,4,Increase Web Security,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,APT-28,Web,North Korea,1,2,Patch Vulnerability,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Ransomware,Unknown,Network,Germany,0.8,3,Monitor for Phishing,5,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Lazarus Group,Network,USA,0.65,2,Monitor for Phishing,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Anonymous,Network,Germany,0.92,5,Quarantine,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Network,North Korea,0.81,3,Increase Web Security,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Email,USA,0.79,2,Monitor for Phishing,3,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+Phishing,APT-28,Web,USA,0.63,3,Increase Web Security,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Phishing,Lazarus Group,Network,Germany,0.88,1,Increase Web Security,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,APT-28,Email,Global,0.54,4,Increase Web Security,3,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Web,Russia,0.96,2,Increase Web Security,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Web,Global,0.66,5,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+DDoS,Lazarus Group,Email,Germany,0.56,1,Patch Vulnerability,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Email,Russia,0.72,2,Quarantine,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Ransomware,Anonymous,Network,Global,0.52,1,Increase Web Security,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+DDoS,Unknown,Web,Russia,0.84,5,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,APT-28,Web,USA,0.95,2,Monitor for Phishing,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+DDoS,Unknown,Email,Global,0.92,5,Increase Web Security,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Ransomware
+Ransomware,Unknown,Web,Russia,0.56,3,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Network,Russia,0.56,5,Increase Web Security,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Malware,APT-28,Web,Russia,0.91,3,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware
+Phishing,Lazarus Group,Email,Global,0.96,2,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Unknown,Email,North Korea,0.73,3,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,APT-28,Network,Global,0.75,2,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Network,Germany,0.66,2,Monitor for Phishing,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Unknown,Web,Global,0.95,4,Quarantine,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Malware,Anonymous,Web,Russia,0.82,2,Increase Web Security,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Phishing,Lazarus Group,Email,USA,0.64,3,Monitor for Phishing,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Network,Global,0.65,4,Patch Vulnerability,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Lazarus Group,Network,Global,0.95,4,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Ransomware
+Malware,Lazarus Group,Network,Russia,0.51,2,Patch Vulnerability,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Malware,Lazarus Group,Web,USA,0.66,5,Quarantine,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,Lazarus Group,Network,USA,0.78,5,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Malware,Lazarus Group,Email,Germany,0.57,4,Patch Vulnerability,2,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Ransomware,Lazarus Group,Email,Global,0.55,2,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+Malware,Unknown,Web,USA,0.91,5,Increase Web Security,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Web,USA,0.95,2,Quarantine,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+DDoS,APT-28,Network,North Korea,0.91,2,Quarantine,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Lazarus Group,Web,North Korea,0.95,4,Increase Web Security,2,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Email,USA,0.78,4,Quarantine,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Unknown,Network,Germany,0.91,1,Patch Vulnerability,5,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Lazarus Group,Email,USA,0.69,5,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Network,Russia,0.83,5,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Web,Global,0.99,5,Quarantine,4,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+DDoS,Lazarus Group,Network,Germany,0.61,3,Increase Web Security,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,Unknown,Network,Russia,0.69,2,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Anonymous,Email,Germany,0.74,4,Monitor for Phishing,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Email,Russia,0.57,5,Patch Vulnerability,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,APT-28,Network,Global,0.54,1,Quarantine,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+DDoS,Lazarus Group,Web,Global,0.91,5,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Anonymous,Web,North Korea,0.99,2,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+Phishing,Anonymous,Email,Russia,0.7,2,Quarantine,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Anonymous,Web,North Korea,0.54,4,Increase Web Security,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Anonymous,Email,Russia,0.53,3,Quarantine,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Ransomware,Unknown,Web,North Korea,0.95,4,Quarantine,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Anonymous,Network,Global,0.73,5,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Email,Germany,0.66,1,Patch Vulnerability,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,APT-28,Email,North Korea,0.74,4,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Ransomware,Unknown,Network,Russia,0.66,3,Monitor for Phishing,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Ransomware,APT-28,Email,Russia,0.74,4,Monitor for Phishing,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Web,Global,0.93,2,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Ransomware,Anonymous,Web,Russia,0.8,5,Quarantine,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+DDoS,APT-28,Email,USA,0.85,5,Patch Vulnerability,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Malware,Unknown,Web,Germany,0.68,5,Increase Web Security,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Anonymous,Email,North Korea,0.87,5,Quarantine,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Lazarus Group,Network,Germany,0.83,5,Quarantine,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Anonymous,Email,Global,0.56,5,Quarantine,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Unknown,Network,North Korea,0.79,1,Increase Web Security,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Anonymous,Web,North Korea,0.63,3,Monitor for Phishing,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Malware,Anonymous,Network,USA,0.9,5,Increase Web Security,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Malware,Unknown,Web,Global,0.71,3,Monitor for Phishing,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Phishing,Anonymous,Email,Russia,1,5,Increase Web Security,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+DDoS,Unknown,Web,USA,0.55,4,Patch Vulnerability,3,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Malware,Unknown,Email,USA,0.89,5,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Lazarus Group,Email,Germany,0.84,2,Quarantine,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Network,Germany,0.88,1,Quarantine,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Network,Germany,0.65,4,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Anonymous,Network,USA,0.75,4,Increase Web Security,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Ransomware,Anonymous,Network,Russia,0.9,2,Patch Vulnerability,3,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+DDoS,Lazarus Group,Web,North Korea,0.62,5,Increase Web Security,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Lazarus Group,Web,Germany,0.61,1,Quarantine,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Web,Russia,0.78,4,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Malware,Unknown,Email,Global,0.76,1,Patch Vulnerability,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Malware,Lazarus Group,Web,Germany,0.64,4,Quarantine,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Malware,Lazarus Group,Web,North Korea,0.65,5,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Web,Global,0.64,4,Quarantine,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Ransomware,Lazarus Group,Network,Global,0.89,4,Increase Web Security,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Malware,Unknown,Web,North Korea,0.83,3,Patch Vulnerability,2,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Unknown,Email,Germany,0.92,5,Patch Vulnerability,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Ransomware,Anonymous,Network,USA,0.99,2,Quarantine,3,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Lazarus Group,Email,North Korea,0.74,2,Patch Vulnerability,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Phishing,Lazarus Group,Web,North Korea,0.53,5,Monitor for Phishing,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Malware,Unknown,Network,North Korea,0.52,2,Patch Vulnerability,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+DDoS,Lazarus Group,Email,Global,0.65,5,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Web,Russia,0.97,2,Patch Vulnerability,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Lazarus Group,Email,USA,0.76,3,Quarantine,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Ransomware,APT-28,Email,Germany,0.64,2,Quarantine,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+DDoS,Anonymous,Email,Germany,0.7,4,Monitor for Phishing,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,APT-28,Web,Russia,0.8,5,Quarantine,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Phishing,Anonymous,Web,North Korea,0.83,1,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Unknown,Email,USA,0.58,1,Patch Vulnerability,1,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Lazarus Group,Network,Germany,0.99,5,Quarantine,3,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Ransomware,Anonymous,Network,Germany,0.77,3,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,APT-28,Web,North Korea,0.57,2,Increase Web Security,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+DDoS,Lazarus Group,Web,Russia,0.95,3,Increase Web Security,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Web,USA,0.54,1,Patch Vulnerability,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Malware,Anonymous,Web,Russia,0.95,5,Quarantine,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Web,Russia,1,5,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Phishing,Anonymous,Network,USA,0.85,3,Quarantine,3,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Malware
+Ransomware,Lazarus Group,Web,USA,0.89,3,Monitor for Phishing,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,APT-28,Email,Germany,0.67,2,Quarantine,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Malware
+Phishing,APT-28,Email,Germany,0.97,4,Patch Vulnerability,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Anonymous,Network,USA,0.76,4,Increase Web Security,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+Ransomware,Unknown,Email,Global,0.87,2,Quarantine,3,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Unknown,Network,Germany,0.96,4,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Network,Global,0.99,1,Increase Web Security,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Unknown,Email,USA,0.92,4,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Web,Germany,0.65,2,Patch Vulnerability,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Email,Russia,0.98,4,Increase Web Security,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Malware,APT-28,Email,USA,0.81,5,Monitor for Phishing,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+Phishing,APT-28,Network,North Korea,0.97,3,Quarantine,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Phishing,Anonymous,Email,Global,0.84,1,Patch Vulnerability,4,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Network,USA,0.65,5,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+Malware,APT-28,Web,USA,0.69,5,Patch Vulnerability,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Web,Germany,0.78,2,Quarantine,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+DDoS,Anonymous,Web,Germany,0.9,3,Quarantine,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Malware,Unknown,Email,Germany,0.66,3,Increase Web Security,4,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Ransomware
+DDoS,APT-28,Network,North Korea,0.79,1,Quarantine,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Web,Germany,0.67,2,Increase Web Security,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,APT-28,Network,USA,0.91,1,Patch Vulnerability,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Phishing,Lazarus Group,Network,Germany,0.73,4,Increase Web Security,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+DDoS,Anonymous,Web,Russia,0.54,5,Monitor for Phishing,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+DDoS,Unknown,Web,Germany,0.58,1,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Unknown,Network,North Korea,0.53,5,Patch Vulnerability,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Ransomware
+Ransomware,Unknown,Web,Russia,0.75,2,Increase Web Security,3,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Network,USA,0.55,4,Patch Vulnerability,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,APT-28,Network,USA,0.56,2,Quarantine,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Phishing,APT-28,Web,Global,0.97,4,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Unknown,Email,Russia,0.94,4,Increase Web Security,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Phishing,Unknown,Web,Global,0.73,5,Increase Web Security,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Unknown,Email,Russia,0.99,2,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Ransomware,APT-28,Network,Russia,0.5,2,Quarantine,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Unknown,Network,North Korea,0.81,1,Patch Vulnerability,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Phishing,Unknown,Email,Global,0.81,2,Patch Vulnerability,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+DDoS,Lazarus Group,Network,North Korea,0.73,1,Increase Web Security,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Lazarus Group,Email,Russia,0.7,3,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Ransomware,Unknown,Email,USA,0.73,3,Monitor for Phishing,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Anonymous,Network,Russia,0.71,3,Patch Vulnerability,4,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Ransomware,Unknown,Email,North Korea,0.87,2,Patch Vulnerability,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Lazarus Group,Web,Global,0.57,2,Increase Web Security,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Web,Global,0.6,1,Patch Vulnerability,3,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Anonymous,Network,North Korea,0.59,4,Quarantine,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Malware,Unknown,Network,Global,0.63,1,Increase Web Security,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Lazarus Group,Email,Germany,0.76,3,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Lazarus Group,Email,USA,0.56,1,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Malware,Anonymous,Email,USA,0.93,4,Monitor for Phishing,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Phishing,Unknown,Email,USA,0.65,2,Increase Web Security,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+DDoS,APT-28,Web,Global,0.58,1,Increase Web Security,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Malware,APT-28,Web,Global,0.84,3,Patch Vulnerability,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Phishing,Lazarus Group,Network,Russia,0.52,3,Quarantine,3,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,APT-28,Email,Russia,0.81,2,Patch Vulnerability,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Lazarus Group,Email,USA,0.85,1,Monitor for Phishing,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,Lazarus Group,Network,Germany,0.61,4,Quarantine,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Email,Russia,0.52,2,Quarantine,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Ransomware,APT-28,Email,Russia,0.68,1,Quarantine,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Lazarus Group,Email,Global,0.55,5,Patch Vulnerability,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,Anonymous,Email,Germany,0.56,3,Monitor for Phishing,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Email,USA,0.63,4,Increase Web Security,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Unknown,Network,Russia,0.65,4,Patch Vulnerability,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Lazarus Group,Email,Germany,0.76,4,Increase Web Security,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Malware,Unknown,Network,Germany,0.84,3,Quarantine,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Email,USA,0.8,1,Quarantine,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Ransomware,APT-28,Web,Germany,0.57,2,Patch Vulnerability,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Unknown,Web,Germany,0.59,1,Monitor for Phishing,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,APT-28,Web,Germany,0.94,2,Quarantine,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Ransomware,Unknown,Web,Russia,0.78,4,Increase Web Security,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Unknown,Network,USA,0.93,1,Increase Web Security,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+Phishing,Unknown,Network,Germany,0.69,4,Patch Vulnerability,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Lazarus Group,Email,Germany,0.81,5,Increase Web Security,5,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Phishing,Unknown,Web,Russia,0.76,4,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,Lazarus Group,Network,USA,0.66,4,Quarantine,4,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Malware,Unknown,Email,Global,0.73,2,Increase Web Security,5,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Email,Russia,0.75,5,Increase Web Security,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Unknown,Network,USA,0.6,4,Quarantine,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Web,Germany,0.66,4,Patch Vulnerability,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Email,USA,0.9,5,Increase Web Security,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Ransomware,Lazarus Group,Web,USA,0.96,5,Patch Vulnerability,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Web,USA,0.68,1,Patch Vulnerability,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Web,Global,0.65,2,Increase Web Security,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Malware,APT-28,Email,USA,0.6,5,Monitor for Phishing,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Malware,APT-28,Web,Global,0.84,5,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,APT-28,Email,Germany,0.66,3,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Malware,Lazarus Group,Web,Global,0.99,5,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Malware,Lazarus Group,Email,Germany,0.66,2,Quarantine,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Malware,Lazarus Group,Web,Germany,0.7,4,Monitor for Phishing,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,Unknown,Network,Global,0.8,4,Monitor for Phishing,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+DDoS,Lazarus Group,Web,Russia,0.9,4,Quarantine,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Malware,Anonymous,Web,North Korea,0.73,4,Quarantine,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Anonymous,Email,USA,0.71,3,Patch Vulnerability,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Phishing,APT-28,Email,North Korea,1,5,Quarantine,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Phishing,Lazarus Group,Web,USA,0.51,4,Monitor for Phishing,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Anonymous,Network,USA,0.95,1,Quarantine,4,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+DDoS,APT-28,Network,Germany,0.57,4,Increase Web Security,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Phishing,Lazarus Group,Email,USA,0.89,5,Increase Web Security,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Network,USA,0.81,4,Patch Vulnerability,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Web,Global,0.67,3,Monitor for Phishing,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Unknown,Email,North Korea,0.94,2,Increase Web Security,2,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware
+Phishing,Lazarus Group,Web,Global,0.51,2,Quarantine,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Malware,Anonymous,Email,USA,0.61,5,Increase Web Security,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Ransomware,Lazarus Group,Email,Germany,0.78,2,Increase Web Security,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Unknown,Email,Global,0.68,2,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Anonymous,Email,Global,0.81,1,Quarantine,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Unknown,Network,Russia,0.51,5,Quarantine,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Lazarus Group,Web,USA,0.56,5,Quarantine,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Malware,Lazarus Group,Web,Germany,0.56,2,Patch Vulnerability,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Unknown,Web,Global,0.59,2,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Ransomware,Anonymous,Email,Global,0.73,2,Quarantine,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Unknown,Network,Germany,0.88,3,Increase Web Security,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Phishing,Lazarus Group,Web,USA,0.95,4,Increase Web Security,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+DDoS,Unknown,Network,Russia,0.92,3,Quarantine,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Lazarus Group,Email,Global,0.6,5,Monitor for Phishing,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+DDoS,Unknown,Web,Russia,0.72,1,Monitor for Phishing,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Anonymous,Network,North Korea,0.6,4,Quarantine,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Email,USA,0.63,1,Monitor for Phishing,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Ransomware,Unknown,Network,North Korea,0.75,5,Patch Vulnerability,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Web,North Korea,0.53,5,Increase Web Security,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Anonymous,Web,North Korea,0.61,1,Patch Vulnerability,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Ransomware,Lazarus Group,Email,USA,0.97,1,Increase Web Security,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Anonymous,Email,USA,0.73,1,Monitor for Phishing,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Lazarus Group,Email,Germany,0.72,5,Monitor for Phishing,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Ransomware,Unknown,Network,Russia,0.51,2,Quarantine,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Unknown,Network,Russia,0.62,1,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+DDoS,Lazarus Group,Network,Germany,0.93,4,Monitor for Phishing,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Unknown,Email,Germany,0.58,5,Quarantine,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+DDoS,Lazarus Group,Web,North Korea,0.71,3,Quarantine,4,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Malware,APT-28,Web,Germany,0.51,3,Increase Web Security,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Anonymous,Network,Global,0.74,4,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Phishing,APT-28,Network,Russia,0.51,2,Increase Web Security,2,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Lazarus Group,Web,Germany,0.91,1,Increase Web Security,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Web,Global,0.91,5,Patch Vulnerability,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Lazarus Group,Network,Global,0.89,1,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Anonymous,Network,Global,0.64,5,Monitor for Phishing,4,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Anonymous,Web,Global,0.92,3,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+Malware,Anonymous,Email,North Korea,0.77,1,Increase Web Security,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Anonymous,Network,Global,0.69,4,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Lazarus Group,Web,North Korea,0.81,2,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Web,North Korea,0.51,4,Patch Vulnerability,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Phishing,Anonymous,Web,Global,0.57,2,Quarantine,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Malware
+Malware,APT-28,Web,Russia,0.87,1,Increase Web Security,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Ransomware,Unknown,Email,Global,0.62,1,Monitor for Phishing,3,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Phishing,Unknown,Web,Global,0.8,2,Quarantine,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware
+Phishing,APT-28,Network,Global,0.69,3,Increase Web Security,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Malware,APT-28,Email,Russia,0.93,5,Increase Web Security,5,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+Malware,Lazarus Group,Web,USA,0.98,4,Quarantine,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Ransomware
+DDoS,Lazarus Group,Email,USA,0.94,4,Quarantine,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Lazarus Group,Network,North Korea,0.64,4,Quarantine,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+DDoS,APT-28,Web,North Korea,0.6,1,Monitor for Phishing,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",DDoS
+Malware,APT-28,Network,Russia,0.74,4,Monitor for Phishing,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Malware,Anonymous,Web,Germany,0.5,5,Increase Web Security,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Lazarus Group,Web,USA,0.51,5,Increase Web Security,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",DDoS
+Phishing,Lazarus Group,Web,North Korea,0.78,2,Patch Vulnerability,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Web,USA,0.76,1,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Web,Russia,1,5,Increase Web Security,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Malware,Anonymous,Email,Russia,0.6,3,Quarantine,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+DDoS,Lazarus Group,Web,Germany,0.63,1,Quarantine,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Ransomware
+Ransomware,Lazarus Group,Web,Germany,0.56,1,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware
+Malware,Lazarus Group,Email,Russia,0.96,5,Quarantine,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Phishing,Unknown,Email,North Korea,0.89,3,Patch Vulnerability,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Unknown,Email,USA,0.91,2,Increase Web Security,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,APT-28,Email,Global,0.95,5,Increase Web Security,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Malware
+DDoS,Anonymous,Email,Germany,0.76,3,Increase Web Security,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Phishing,APT-28,Email,Global,0.73,1,Monitor for Phishing,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+DDoS,Anonymous,Web,North Korea,0.67,3,Quarantine,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Unknown,Web,Germany,0.79,1,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Network,Global,0.73,5,Monitor for Phishing,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Malware
+Phishing,APT-28,Web,North Korea,0.73,5,Increase Web Security,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Ransomware,Lazarus Group,Web,USA,0.97,4,Patch Vulnerability,4,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Email,North Korea,0.99,4,Increase Web Security,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Email,Germany,0.9,4,Increase Web Security,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Unknown,Web,Russia,0.88,5,Monitor for Phishing,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Network,USA,0.84,2,Increase Web Security,1,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",DDoS
+Malware,APT-28,Email,Global,0.58,5,Patch Vulnerability,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Web,Germany,0.53,3,Increase Web Security,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Ransomware,APT-28,Web,Russia,0.85,5,Quarantine,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Phishing,Anonymous,Network,North Korea,0.86,5,Increase Web Security,2,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+DDoS,APT-28,Network,Russia,0.52,1,Monitor for Phishing,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,APT-28,Email,Germany,0.96,1,Patch Vulnerability,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Network,Germany,0.55,1,Monitor for Phishing,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Lazarus Group,Web,Russia,0.64,5,Quarantine,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Malware,Lazarus Group,Web,North Korea,0.84,2,Increase Web Security,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Anonymous,Network,Russia,0.58,3,Monitor for Phishing,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Lazarus Group,Network,Germany,0.53,3,Monitor for Phishing,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+DDoS,APT-28,Network,Germany,0.67,2,Monitor for Phishing,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Malware,APT-28,Network,Global,0.88,2,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Unknown,Email,Global,0.71,3,Quarantine,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+DDoS,Unknown,Network,USA,0.83,4,Quarantine,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Malware,Lazarus Group,Email,Germany,0.79,1,Increase Web Security,4,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Ransomware,Anonymous,Web,Global,0.51,1,Increase Web Security,5,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Network,Russia,0.99,3,Patch Vulnerability,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+Malware,Lazarus Group,Email,North Korea,0.52,2,Quarantine,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Lazarus Group,Network,Russia,0.98,4,Monitor for Phishing,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+DDoS,Lazarus Group,Web,North Korea,0.77,3,Monitor for Phishing,4,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,APT-28,Web,Global,0.98,1,Patch Vulnerability,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Anonymous,Web,USA,0.56,5,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Malware,APT-28,Network,Russia,0.75,2,Patch Vulnerability,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Network,Russia,0.58,5,Increase Web Security,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Phishing,Unknown,Email,Russia,0.53,3,Quarantine,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Lazarus Group,Web,North Korea,0.81,1,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Malware,APT-28,Network,Global,0.6,4,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Anonymous,Web,Russia,0.79,5,Patch Vulnerability,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+Malware,Unknown,Web,Russia,0.56,4,Increase Web Security,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+DDoS,Unknown,Email,USA,0.67,1,Monitor for Phishing,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Phishing,Lazarus Group,Email,USA,0.89,5,Increase Web Security,4,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Anonymous,Email,Global,0.72,4,Increase Web Security,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Phishing,APT-28,Email,Global,0.81,4,Patch Vulnerability,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Lazarus Group,Web,Germany,0.82,5,Increase Web Security,5,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Malware,APT-28,Email,USA,0.92,1,Monitor for Phishing,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Unknown,Email,Germany,0.66,4,Increase Web Security,5,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Email,North Korea,0.84,3,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Phishing,APT-28,Email,Germany,0.98,5,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Lazarus Group,Web,Russia,0.87,2,Increase Web Security,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Email,Germany,0.74,2,Quarantine,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Ransomware,Lazarus Group,Web,Global,0.82,1,Patch Vulnerability,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Network,North Korea,0.87,3,Patch Vulnerability,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Ransomware
+Ransomware,Lazarus Group,Web,Russia,0.81,4,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,Lazarus Group,Web,Germany,0.51,2,Monitor for Phishing,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Ransomware
+Ransomware,Anonymous,Email,North Korea,0.6,1,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Phishing,APT-28,Network,North Korea,0.91,3,Monitor for Phishing,4,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Malware
+DDoS,Unknown,Network,Russia,0.64,3,Quarantine,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Network,Germany,0.87,1,Patch Vulnerability,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,Unknown,Network,North Korea,0.69,1,Increase Web Security,3,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+DDoS,Anonymous,Web,North Korea,0.76,4,Monitor for Phishing,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Network,USA,0.53,1,Monitor for Phishing,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Ransomware,Lazarus Group,Web,North Korea,0.59,4,Monitor for Phishing,5,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,APT-28,Web,USA,0.98,4,Increase Web Security,3,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Web,Germany,0.95,5,Monitor for Phishing,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Anonymous,Network,Germany,0.83,3,Increase Web Security,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Ransomware,Unknown,Email,Germany,0.73,3,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Email,Global,0.84,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Network,Germany,0.81,5,Patch Vulnerability,3,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Phishing,Anonymous,Email,North Korea,0.78,4,Quarantine,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,APT-28,Email,Russia,0.53,4,Increase Web Security,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Ransomware,Unknown,Web,USA,0.82,1,Monitor for Phishing,2,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Unknown,Web,Global,0.88,5,Monitor for Phishing,1,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Ransomware,APT-28,Network,Germany,1,1,Monitor for Phishing,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Unknown,Network,Germany,0.51,5,Monitor for Phishing,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Malware,APT-28,Email,Russia,0.87,1,Quarantine,2,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Web,Russia,0.79,2,Monitor for Phishing,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Phishing,APT-28,Network,Global,0.72,3,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+Ransomware,Lazarus Group,Network,USA,0.56,3,Increase Web Security,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Network,Germany,0.7,4,Patch Vulnerability,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Anonymous,Network,Global,0.68,2,Monitor for Phishing,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Ransomware,Anonymous,Network,North Korea,0.65,3,Patch Vulnerability,1,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Phishing,Lazarus Group,Network,North Korea,0.87,4,Increase Web Security,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Lazarus Group,Email,Global,0.85,2,Increase Web Security,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Phishing,Anonymous,Web,Germany,0.79,3,Monitor for Phishing,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Lazarus Group,Web,Global,0.97,1,Increase Web Security,5,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+DDoS,APT-28,Network,Germany,0.67,5,Patch Vulnerability,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+Malware,APT-28,Web,Russia,0.62,2,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+Malware,Anonymous,Web,Global,0.83,4,Quarantine,5,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Web,Germany,0.6,2,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Phishing,APT-28,Network,Global,0.66,4,Patch Vulnerability,1,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Lazarus Group,Network,Global,0.61,2,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Unknown,Web,Germany,0.53,4,Monitor for Phishing,3,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Unknown,Web,Germany,0.91,3,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",DDoS
+DDoS,APT-28,Network,USA,0.63,1,Monitor for Phishing,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+DDoS,APT-28,Email,Global,0.74,3,Monitor for Phishing,2,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Phishing,Unknown,Web,North Korea,0.52,1,Patch Vulnerability,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Unknown,Email,Global,0.85,3,Increase Web Security,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Anonymous,Web,Global,0.67,3,Patch Vulnerability,3,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Malware
+Malware,Lazarus Group,Email,Germany,0.87,2,Monitor for Phishing,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Ransomware,Anonymous,Email,Global,0.71,5,Quarantine,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Malware,APT-28,Email,Global,0.6,4,Quarantine,1,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Malware
+DDoS,Anonymous,Network,North Korea,0.76,4,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,Anonymous,Email,Germany,0.57,4,Quarantine,3,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Phishing,Anonymous,Email,Global,0.72,1,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Malware,Anonymous,Email,Russia,0.66,4,Monitor for Phishing,5,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Ransomware,Lazarus Group,Web,USA,0.96,4,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Email,North Korea,0.53,2,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Web,Global,0.85,3,Increase Web Security,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Ransomware,APT-28,Email,Russia,0.59,4,Monitor for Phishing,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Ransomware,Anonymous,Email,Global,0.66,5,Patch Vulnerability,2,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Network,Global,0.71,4,Increase Web Security,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+DDoS,Unknown,Web,Germany,0.95,1,Increase Web Security,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Ransomware,Unknown,Email,Germany,0.62,1,Quarantine,2,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Ransomware
+DDoS,Lazarus Group,Web,Germany,0.55,1,Monitor for Phishing,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Anonymous,Web,Russia,0.66,4,Patch Vulnerability,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,Anonymous,Network,Global,0.55,2,Quarantine,1,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,APT-28,Network,USA,0.56,5,Quarantine,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Anonymous,Network,North Korea,0.79,4,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Ransomware
+Ransomware,Anonymous,Network,Germany,0.53,2,Monitor for Phishing,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Malware
+Ransomware,Unknown,Network,Germany,0.52,2,Patch Vulnerability,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,APT-28,Network,Global,0.86,4,Quarantine,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Malware
+Malware,Anonymous,Network,Global,0.68,4,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+Malware,Lazarus Group,Network,Russia,0.56,2,Quarantine,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Anonymous,Email,Russia,0.63,2,Quarantine,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+DDoS,Unknown,Web,Germany,0.82,2,Quarantine,3,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Phishing,Lazarus Group,Network,Global,0.64,4,Monitor for Phishing,2,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Malware
+DDoS,Unknown,Network,USA,0.75,2,Quarantine,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Anonymous,Web,North Korea,0.56,1,Quarantine,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Lazarus Group,Email,Global,0.79,4,Quarantine,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Phishing,APT-28,Web,Global,0.66,1,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,APT-28,Web,Russia,0.81,3,Monitor for Phishing,1,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Lazarus Group,Network,North Korea,0.9,4,Increase Web Security,4,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+Phishing,Lazarus Group,Web,Germany,0.81,3,Monitor for Phishing,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Unknown,Web,Global,0.65,2,Patch Vulnerability,3,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Malware,Lazarus Group,Network,Germany,0.63,2,Increase Web Security,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Phishing,Unknown,Network,Global,0.66,5,Patch Vulnerability,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Malware
+Phishing,Anonymous,Network,Germany,0.58,2,Quarantine,4,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",DDoS
+Malware,Unknown,Network,North Korea,0.59,3,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+Phishing,Lazarus Group,Web,Russia,0.9,2,Patch Vulnerability,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Ransomware,Lazarus Group,Web,North Korea,0.69,4,Patch Vulnerability,1,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Anonymous,Email,USA,0.72,2,Patch Vulnerability,1,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,Lazarus Group,Email,Russia,0.8,5,Monitor for Phishing,2,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Malware
+Ransomware,Lazarus Group,Web,North Korea,0.79,2,Increase Web Security,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Malware,APT-28,Email,USA,0.53,3,Monitor for Phishing,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Malware
+Phishing,APT-28,Web,Global,0.92,3,Monitor for Phishing,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Malware,Anonymous,Email,Global,0.59,2,Monitor for Phishing,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,Unknown,Network,Germany,0.86,3,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Phishing,APT-28,Email,Russia,0.89,3,Monitor for Phishing,3,phishing email with malicious link,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+DDoS,Unknown,Network,Global,0.86,5,Increase Web Security,5,malware detected in email attachment,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Lazarus Group,Network,Russia,0.79,4,Monitor for Phishing,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Malware,APT-28,Network,Global,0.51,5,Quarantine,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",DDoS
+Ransomware,Anonymous,Network,Germany,0.68,1,Patch Vulnerability,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+Phishing,Anonymous,Email,North Korea,0.8,5,Quarantine,4,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+DDoS,Anonymous,Web,Germany,0.69,2,Increase Web Security,3,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+Malware,APT-28,Network,USA,0.93,4,Increase Web Security,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+Phishing,Unknown,Email,Global,0.65,2,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Malware,Lazarus Group,Network,USA,0.65,1,Increase Web Security,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+DDoS,Unknown,Email,USA,0.63,4,Monitor for Phishing,2,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",DDoS
+DDoS,Unknown,Email,Russia,0.67,3,Patch Vulnerability,5,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Malware,Lazarus Group,Email,Global,0.78,5,Increase Web Security,4,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+Phishing,Lazarus Group,Web,USA,0.85,2,Quarantine,2,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+Ransomware,APT-28,Email,North Korea,0.83,1,Increase Web Security,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+DDoS,APT-28,Email,USA,0.9,3,Patch Vulnerability,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Phishing,APT-28,Web,North Korea,0.94,5,Quarantine,4,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Phishing
+Phishing,APT-28,Web,Russia,0.91,3,Quarantine,3,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,APT-28,Email,USA,0.51,5,Quarantine,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+DDoS,Lazarus Group,Web,Germany,0.87,4,Monitor for Phishing,4,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+DDoS,Unknown,Network,Russia,0.6,3,Increase Web Security,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+Phishing,APT-28,Network,North Korea,0.57,3,Monitor for Phishing,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",DDoS
+Phishing,APT-28,Web,Russia,0.82,3,Quarantine,3,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Ransomware,Unknown,Web,USA,0.66,4,Monitor for Phishing,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+Ransomware,APT-28,Email,Global,0.53,1,Monitor for Phishing,2,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",DDoS
+DDoS,Unknown,Web,Global,0.57,5,Monitor for Phishing,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Email,North Korea,0.5,3,Increase Web Security,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Ransomware
+DDoS,Lazarus Group,Network,North Korea,0.95,4,Quarantine,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Phishing,Anonymous,Web,Global,0.51,1,Quarantine,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Email,North Korea,0.6,5,Increase Web Security,2,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+Malware,Anonymous,Email,Russia,0.71,4,Monitor for Phishing,3,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Anonymous,Network,Germany,0.68,5,Monitor for Phishing,4,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Malware,Anonymous,Web,Germany,0.96,3,Patch Vulnerability,1,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Malware,APT-28,Network,Russia,0.52,1,Patch Vulnerability,3,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+Malware,Lazarus Group,Email,Germany,0.76,4,Patch Vulnerability,3,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Ransomware,Anonymous,Email,USA,0.84,1,Increase Web Security,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Malware,Unknown,Web,Russia,0.97,3,Quarantine,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Ransomware
+Malware,APT-28,Email,North Korea,0.81,1,Patch Vulnerability,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Lazarus Group,Web,Russia,0.9,1,Quarantine,1,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Ransomware
+Phishing,Anonymous,Network,Global,0.54,2,Quarantine,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Ransomware
+Malware,Unknown,Web,North Korea,0.69,1,Quarantine,4,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Ransomware,Lazarus Group,Web,Global,0.69,5,Increase Web Security,5,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Ransomware
+Malware,Lazarus Group,Email,North Korea,0.94,4,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Malware,APT-28,Email,Germany,0.58,2,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",DDoS
+Ransomware,Lazarus Group,Web,Russia,0.58,4,Increase Web Security,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",DDoS
+Malware,APT-28,Email,USA,0.66,4,Patch Vulnerability,4,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Anonymous,Email,North Korea,0.53,3,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Malware,APT-28,Email,North Korea,0.59,3,Monitor for Phishing,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Ransomware,Unknown,Web,Global,0.98,2,Monitor for Phishing,3,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Malware,APT-28,Email,Germany,0.71,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",DDoS
+Malware,Unknown,Web,Global,0.82,3,Monitor for Phishing,3,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Phishing,APT-28,Email,Global,0.86,3,Patch Vulnerability,5,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Malware
+Phishing,Lazarus Group,Network,Germany,0.68,4,Patch Vulnerability,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Malware,Anonymous,Email,USA,0.57,2,Patch Vulnerability,4,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Malware,Unknown,Email,Global,0.6,4,Monitor for Phishing,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+DDoS,APT-28,Web,Global,0.66,5,Quarantine,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Ransomware,APT-28,Web,North Korea,0.82,4,Monitor for Phishing,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Email,Germany,0.7,5,Monitor for Phishing,5,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Malware
+Phishing,Lazarus Group,Network,Russia,0.5,1,Increase Web Security,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Phishing
+Phishing,Lazarus Group,Email,USA,0.76,1,Patch Vulnerability,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Phishing,Unknown,Email,USA,0.96,5,Quarantine,2,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Malware
+Phishing,Unknown,Network,Germany,0.91,5,Increase Web Security,3,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Lazarus Group,Web,North Korea,0.91,4,Quarantine,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Unknown,Email,North Korea,0.9,5,Quarantine,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Anonymous,Web,Germany,0.66,2,Patch Vulnerability,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Malware,Anonymous,Web,North Korea,0.88,1,Monitor for Phishing,4,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,Lazarus Group,Network,USA,0.57,1,Patch Vulnerability,3,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Phishing,Unknown,Network,USA,0.83,5,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Web,Russia,0.82,3,Increase Web Security,4,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",DDoS
+DDoS,Anonymous,Email,Germany,0.51,3,Patch Vulnerability,5,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,Lazarus Group,Web,Global,0.89,5,Monitor for Phishing,3,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Unknown,Email,Global,0.95,2,Quarantine,1,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Lazarus Group,Email,Russia,0.63,3,Patch Vulnerability,1,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Network,Russia,0.91,5,Quarantine,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",DDoS
+Malware,Anonymous,Email,North Korea,0.54,2,Patch Vulnerability,3,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Phishing,Lazarus Group,Email,Russia,0.8,2,Quarantine,4,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+DDoS,Lazarus Group,Web,Russia,0.74,4,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Phishing,Lazarus Group,Network,Global,0.77,2,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Ransomware,APT-28,Email,North Korea,0.96,3,Quarantine,1,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Lazarus Group,Email,Russia,0.94,3,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Malware
+Malware,APT-28,Network,Russia,0.89,5,Patch Vulnerability,3,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Web,North Korea,0.64,5,Increase Web Security,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",Ransomware
+Ransomware,APT-28,Network,Germany,0.96,2,Increase Web Security,1,malware detected in email attachment,"['phishing', 'link', 'email']","['Anonymous', 'Website']",DDoS
+DDoS,Anonymous,Network,North Korea,0.55,1,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",DDoS
+Phishing,Anonymous,Email,Global,0.93,4,Quarantine,5,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,Lazarus Group,Email,Germany,0.66,1,Quarantine,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+DDoS,Lazarus Group,Web,USA,0.53,2,Increase Web Security,1,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",DDoS
+Malware,Anonymous,Email,North Korea,0.83,2,Monitor for Phishing,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",DDoS
+Phishing,Unknown,Email,Global,0.62,1,Monitor for Phishing,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Ransomware,Anonymous,Network,Germany,0.62,4,Patch Vulnerability,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,APT-28,Email,North Korea,0.65,1,Monitor for Phishing,2,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Anonymous', 'Website']",DDoS
+Ransomware,Anonymous,Web,Russia,0.53,5,Patch Vulnerability,1,phishing email with malicious link,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Malware
+Malware,APT-28,Network,North Korea,0.59,3,Quarantine,5,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Ransomware
+DDoS,Lazarus Group,Web,USA,0.5,5,Quarantine,3,phishing scam targeting corporate accounts,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Phishing
+Phishing,Unknown,Network,North Korea,0.72,3,Monitor for Phishing,3,phishing email with malicious link,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Lazarus Group,Email,Germany,0.54,2,Quarantine,2,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Lazarus Group', 'Network Device']",Phishing
+Phishing,APT-28,Network,Germany,0.84,4,Increase Web Security,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Ransomware
+Ransomware,APT-28,Network,North Korea,0.62,1,Increase Web Security,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Email,Germany,0.97,4,Monitor for Phishing,1,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Unknown,Email,Russia,0.94,1,Monitor for Phishing,4,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Anonymous,Web,North Korea,0.64,5,Patch Vulnerability,3,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Ransomware
+DDoS,Lazarus Group,Web,Russia,0.89,5,Quarantine,5,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+DDoS,Lazarus Group,Email,Russia,0.9,1,Patch Vulnerability,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Ransomware
+Phishing,Anonymous,Email,Global,0.99,4,Patch Vulnerability,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+Phishing,Lazarus Group,Email,North Korea,0.8,1,Increase Web Security,2,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Phishing,Unknown,Network,Germany,0.54,2,Increase Web Security,1,malware detected in email attachment,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",Phishing
+Ransomware,Lazarus Group,Network,Russia,0.82,5,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Malware
+Phishing,APT-28,Network,Global,0.81,2,Increase Web Security,3,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",DDoS
+DDoS,Anonymous,Email,North Korea,0.82,5,Patch Vulnerability,5,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Unknown,Web,North Korea,0.65,5,Increase Web Security,4,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+Phishing,Anonymous,Email,USA,0.93,3,Quarantine,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Ransomware
+Phishing,Unknown,Network,USA,0.98,2,Increase Web Security,5,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Malware,APT-28,Network,Russia,0.61,2,Increase Web Security,4,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Unknown', 'Phishing Service']",Phishing
+DDoS,Anonymous,Email,USA,0.54,3,Increase Web Security,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyY', 'Malware']",Phishing
+Ransomware,Lazarus Group,Email,Russia,0.6,4,Monitor for Phishing,5,distributed denial of service attack on public website,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Phishing
+Malware,Unknown,Network,Germany,0.91,2,Quarantine,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",DDoS
+Phishing,Anonymous,Network,Russia,0.84,1,Quarantine,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Phishing,Lazarus Group,Network,USA,0.82,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+DDoS,Anonymous,Email,Germany,0.7,2,Patch Vulnerability,4,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",DDoS
+Phishing,Anonymous,Network,USA,0.79,4,Increase Web Security,5,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Ransomware,Anonymous,Network,Russia,0.65,2,Monitor for Phishing,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+DDoS,Unknown,Web,Global,0.74,5,Patch Vulnerability,4,phishing email with malicious link,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Malware
+Phishing,Lazarus Group,Email,North Korea,0.9,1,Patch Vulnerability,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+DDoS,APT-28,Web,USA,0.99,3,Increase Web Security,5,phishing scam targeting corporate accounts,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Phishing,Unknown,Web,Russia,0.97,5,Increase Web Security,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Malware
+Phishing,Unknown,Network,Germany,0.97,4,Patch Vulnerability,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Unknown', 'Phishing Service']",Malware
+Phishing,Unknown,Email,USA,0.7,5,Patch Vulnerability,5,ransomware attack through network vulnerability,"['malware', 'email', 'attachment']","['CompanyY', 'Malware']",Malware
+Ransomware,APT-28,Network,USA,0.73,5,Quarantine,2,malware detected in email attachment,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Ransomware,Lazarus Group,Email,North Korea,0.85,4,Monitor for Phishing,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyX', 'APT-28']",DDoS
+DDoS,Lazarus Group,Web,Russia,0.96,5,Quarantine,2,malware detected in email attachment,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",DDoS
+Phishing,Lazarus Group,Email,Global,0.57,3,Patch Vulnerability,1,phishing email with malicious link,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+Phishing,Anonymous,Network,Germany,0.65,2,Quarantine,4,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Malware
+Ransomware,Anonymous,Network,Russia,0.57,5,Quarantine,2,phishing email with malicious link,"['DDoS', 'website', 'attack']","['CompanyY', 'Malware']",Phishing
+Phishing,Anonymous,Network,Germany,0.81,3,Patch Vulnerability,1,phishing scam targeting corporate accounts,"['DDoS', 'website', 'attack']","['Unknown', 'Phishing Service']",Phishing
+Ransomware,APT-28,Email,USA,0.65,2,Increase Web Security,1,malware detected in email attachment,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,Anonymous,Web,North Korea,0.66,2,Patch Vulnerability,4,phishing email with malicious link,"['phishing', 'link', 'email']","['CompanyY', 'Malware']",Phishing
+DDoS,APT-28,Web,North Korea,0.54,5,Increase Web Security,5,ransomware attack through network vulnerability,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Phishing
+Phishing,Lazarus Group,Email,Global,0.67,3,Patch Vulnerability,5,distributed denial of service attack on public website,"['DDoS', 'website', 'attack']","['Anonymous', 'Website']",Malware
+Phishing,Anonymous,Network,North Korea,0.93,5,Patch Vulnerability,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyX', 'APT-28']",Phishing
+Malware,Anonymous,Web,USA,0.62,4,Patch Vulnerability,2,ransomware attack through network vulnerability,"['phishing', 'corporate', 'scam']","['CompanyY', 'Malware']",Phishing
+Ransomware,Unknown,Network,Global,0.85,2,Monitor for Phishing,4,ransomware attack through network vulnerability,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Phishing,APT-28,Email,Russia,0.81,5,Increase Web Security,2,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['Lazarus Group', 'Network Device']",Ransomware
+Phishing,Lazarus Group,Network,North Korea,0.93,2,Monitor for Phishing,4,distributed denial of service attack on public website,"['ransomware', 'network', 'vulnerability']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Web,Global,0.57,3,Patch Vulnerability,1,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Malware,Unknown,Web,USA,0.99,1,Quarantine,2,distributed denial of service attack on public website,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Phishing
+Ransomware,Lazarus Group,Network,Germany,0.79,5,Monitor for Phishing,1,ransomware attack through network vulnerability,"['phishing', 'link', 'email']","['CompanyX', 'APT-28']",Phishing
+Malware,Unknown,Email,Germany,1,5,Increase Web Security,3,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['CompanyX', 'APT-28']",Ransomware
+DDoS,APT-28,Network,USA,0.96,2,Patch Vulnerability,4,phishing scam targeting corporate accounts,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Ransomware
+Malware,APT-28,Email,USA,0.61,3,Monitor for Phishing,3,distributed denial of service attack on public website,"['phishing', 'link', 'email']","['Anonymous', 'Website']",Ransomware
+DDoS,Anonymous,Network,Germany,0.53,4,Quarantine,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Unknown', 'Phishing Service']",Malware
+Ransomware,Unknown,Web,Global,0.63,3,Monitor for Phishing,1,phishing email with malicious link,"['phishing', 'corporate', 'scam']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Anonymous,Email,Germany,0.76,5,Increase Web Security,2,malware detected in email attachment,"['malware', 'email', 'attachment']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,Unknown,Email,USA,0.59,4,Monitor for Phishing,3,malware detected in email attachment,"['phishing', 'corporate', 'scam']","['Anonymous', 'Website']",Ransomware
+Ransomware,APT-28,Email,North Korea,0.58,3,Quarantine,2,malware detected in email attachment,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Phishing
+Ransomware,APT-28,Web,Russia,0.73,1,Quarantine,5,phishing scam targeting corporate accounts,"['ransomware', 'network', 'vulnerability']","['Anonymous', 'Website']",Phishing
+DDoS,APT-28,Network,North Korea,0.52,2,Increase Web Security,3,phishing email with malicious link,"['phishing', 'link', 'email']","['Lazarus Group', 'Network Device']",Malware
